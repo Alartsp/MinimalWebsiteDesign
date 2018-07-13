@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    background: white;
+    padding: 50px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    min-width: 1000px;
+    width: 1000px;
+    height: 100%;
+    border-top: 5px solid #ffa500;
+}
+
+header {
+    width: 1000px;
+    height: 300px;
+    padding: 40px;
+}
+
+.logo{
+    width: 150px;
+    height: 30px;
+    float: left;
+}
+
+.tagline {
+    border-left: 2px solid #cbcbcb;
+    margin-left: 150px;
+    padding-left: 20px;
+
+}
