@@ -15,29 +15,83 @@ html, body {
     height: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .wrapper {
     margin: 0 auto;
-    min-width: 1000px;
-    width: 1000px;
+    min-width: 1040px;
+    width: 1040px;
     height: 100%;
     border-top: 5px solid #ffa500;
 }
 
 header {
-    width: 1000px;
-    height: 300px;
+    width: 960px;
+    height: 150px;
     padding: 40px;
+    outline: 1px solid black;
 }
 
 .logo{
-    width: 150px;
-    height: 30px;
+    width: 205px;
+    height: 56px;
     float: left;
 }
 
 .tagline {
     border-left: 2px solid #cbcbcb;
-    margin-left: 150px;
+    margin-left: 235px;
     padding-left: 20px;
-
 }
+
+.tagline h1{
+    color: #ffa500;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+.tagline p{
+    font-size: 20px;
+}
+
+.menu {
+    padding: 20px 0 30px 0;
+}
+
+.menu ul{
+    padding: 10px 0;
+    border-bottom: 1px solid #b3b3ba;
+    border-top: 1px solid #b3b3ba;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 40px;
+}
+
+.menu a{
+    color: #a2a2a8;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.menu a:hover{
+    color: orange;
+}
+
+.menu a:active{
+    color: #000000;
+}
+
+main{
+    width: 960px;
+    height: 780px;
+    outline: 1px solid black;
+    padding: 40px;
+}
+
+
+
