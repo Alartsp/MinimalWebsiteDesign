@@ -88,10 +88,48 @@ header {
 
 main{
     width: 960px;
-    height: 780px;
+    height: 800px;
     outline: 1px solid black;
     padding: 40px;
 }
 
+.products{
+    width: 450px;
+    height: 336px;
+    float: left;
+    border: 4px double #c0c0c0;
+}
+
+.slider{
+    width: 450px;
+    height: 250px;
+    overflow: hidden;
+    background-image: url("../image/featured.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+}
+
+.products p{
+    padding-bottom: 10px;
+}
+
+.arrows{
+    width: 430px;
+    display: inline-flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.arrows p{
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+.preview{
+    float: right;
+    width: 450px;
+    height: 336px;
+    overflow: hidden;
+}
 
 
