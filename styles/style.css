@@ -89,13 +89,18 @@ header {
 
 main{
     width: 960px;
-    height: 800px;
+    height: auto;
     padding: 0 40px 0 40px;
 }
 
-.data :nth-child(1){
-    padding-bottom: 5px;
-    color: #727272;
+.data1{
+    overflow: hidden;
+}
+
+.data1 h2{
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #686868;
 }
 
 .products{
@@ -129,11 +134,12 @@ main{
     margin-right: 70px;
     font-size: 20px;
     font-weight: bold;
+    color: #686868;
 }
 
 .preview{
     float: right;
-    width: 460px;
+    width: 450px;
     height: 310px;
     overflow: hidden;
 }
@@ -163,13 +169,15 @@ main{
 .info{
     font-size: 12px;
     font-weight: bold;
+    color: #686868;
 }
 
 .more_button{
+    margin-top: 1px;
     clear: both;
     float: right;
     background-image: url("../image/more.png");
-    color: white;
+    color: #ffffff;
     width: 57px;
     height: 15px;
     font-size: 13px;
@@ -180,7 +188,7 @@ main{
     position: absolute;
     left: 12%;
     top: -15%;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -190,4 +198,59 @@ main{
 
 .more_button a:active{
     color: #dbdbdb;
+}
+
+.hr2{
+    margin: 25px 0 25px 0;
+}
+
+.data2{
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.data2 ul{
+    list-style-type: none;
+}
+
+.news{
+    width: 320px;
+}
+
+.data2 h2{
+    padding-bottom: 10px;
+}
+
+.news li{
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+.news .date{
+    padding-right: 5px;
+    border-right: 1px solid #6e6e6e;
+    height: 45px;
+}
+
+.date :nth-child(1){
+    color: #ffa500;
+}
+
+.l_news{
+    padding-left: 5px;
+}
+
+.l_news :nth-child(1){
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.about{
+    width: 320px;
+    padding: 0 30px;
+}
+
+.contacts{
+    width: 320px;
+    padding: 0 30px;
 }
