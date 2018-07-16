@@ -23,15 +23,16 @@ a{
     margin: 0 auto;
     min-width: 1040px;
     width: 1040px;
-    height: 100%;
-    border-top: 5px solid #ffa500;
+    border-top: 6px solid #ffa500;
+    border-left: 2px solid #afafaf;
+    border-right: 2px solid #afafaf;
+    border-bottom: 2px solid #afafaf;
 }
 
 header {
     width: 960px;
     height: 150px;
-    padding: 40px;
-    outline: 1px solid black;
+    padding: 40px 40px 0 40px;
 }
 
 .logo{
@@ -89,19 +90,23 @@ header {
 main{
     width: 960px;
     height: 800px;
-    outline: 1px solid black;
-    padding: 40px;
+    padding: 0 40px 0 40px;
+}
+
+.data :nth-child(1){
+    padding-bottom: 5px;
+    color: #727272;
 }
 
 .products{
-    width: 450px;
-    height: 336px;
-    float: left;
+    width: 460px;
+    height: 300px;
     border: 4px double #c0c0c0;
+    float: left;
 }
 
 .slider{
-    width: 450px;
+    width: 460px;
     height: 250px;
     overflow: hidden;
     background-image: url("../image/featured.jpg");
@@ -114,7 +119,7 @@ main{
 }
 
 .arrows{
-    width: 430px;
+    width: 440px;
     display: inline-flex;
     padding: 10px;
     justify-content: space-around;
@@ -123,13 +128,56 @@ main{
 .arrows p{
     margin-right: 70px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .preview{
     float: right;
-    width: 450px;
-    height: 336px;
+    width: 460px;
+    height: 310px;
     overflow: hidden;
 }
 
+.lis_data{
+    background-image: url("../image/preview.jpg");
+    background-repeat: no-repeat;
+    width: 430px;
+    height: 120px;
+    padding: 80px 0 0 20px;
+}
 
+.lis_data :nth-child(n){
+    color: #ffffff;
+}
+
+.lis_data :nth-child(1){
+    font-size: 20px;
+}
+
+.lis_data :nth-child(2){
+    font-size: 40px;
+    width: 350px;
+    line-height: normal;
+}
+
+.info{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.more_button{
+    clear: both;
+    float: right;
+    background-image: url("../image/more.png");
+    color: white;
+    width: 57px;
+    height: 15px;
+    font-size: 13px;
+    position: relative;
+}
+
+.more_button p{
+    position: absolute;
+    left: 12%;
+    top: -15%;
+}
