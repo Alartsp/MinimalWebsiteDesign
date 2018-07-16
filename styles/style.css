@@ -176,8 +176,18 @@ main{
     position: relative;
 }
 
-.more_button p{
+.more_button a{
     position: absolute;
     left: 12%;
     top: -15%;
+    color: white;
+    text-decoration: none;
+}
+
+.more_button a:hover{
+    color: #ffa500;
+}
+
+.more_button a:active{
+    color: #dbdbdb;
 }
