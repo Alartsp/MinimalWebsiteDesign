@@ -27,6 +27,7 @@ a{
     border-left: 2px solid #afafaf;
     border-right: 2px solid #afafaf;
     border-bottom: 2px solid #afafaf;
+    padding-bottom: 20px;
 }
 
 header {
@@ -55,6 +56,7 @@ header {
 
 .tagline p{
     font-size: 20px;
+    color: #a1a1a1;
 }
 
 .menu {
@@ -204,6 +206,10 @@ main{
     margin: 25px 0 25px 0;
 }
 
+.hr1{
+    margin: 3px 0;
+}
+
 .data2{
     overflow: hidden;
     display: inline-flex;
@@ -219,6 +225,7 @@ main{
 
 .data2 h2{
     padding-bottom: 10px;
+    font-size: 22px;
 }
 
 .news li{
@@ -274,13 +281,14 @@ main{
 }
 
 .contacts{
-    width: 260px;
-    padding: 0 30px;
+    width: 230px;
+    padding: 0 60px 0 30px;
 }
 
 .contacts ul{
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 
 .contacts img{
@@ -324,4 +332,73 @@ main{
 
 .contacts li:nth-child(4){
     border-bottom: none;
+}
+
+.clients{
+    display: inline-flex;
+    padding-top: 40px;
+}
+
+.clients :nth-child(1){
+    display: block;
+    width: 40px;
+    height: 1px;
+    margin-top: 10px;
+    color: #c3c3c3;
+}
+
+.clients :nth-child(2){
+    display: block;
+    width: 100px;
+    padding: 0 3px;
+}
+
+.clients :nth-child(3){
+    display: block;
+    width: 814px;
+    height: 1px;
+    margin-top: 10px;
+    color: #c3c3c3;
+}
+
+.clientlist{
+    text-align: center;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.footer_logo{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer_menu li{
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+    border-right: 1px solid #898989;
+}
+
+.footer_menu li:nth-child(7){
+    border-right: none;
+}
+
+.footer_menu ul{
+    text-align: center;
+}
+
+.footer a{
+    color: #4b4b4b;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #e2a000;
+}
+
+.footer a:active{
+    color: #ffec90;
+}
+
+.footer p{
+    text-align: center;
 }
